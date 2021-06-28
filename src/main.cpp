@@ -149,7 +149,7 @@ int main(int argc, char** args)
 
 			//Update texture to be displayed
 			SDL_UpdateTexture(texture, NULL, pixels, width * sizeof(int));
-            //Clear screen
+           		//Clear screen
 			SDL_RenderClear(renderer);
 			//Render texture to screen
 			SDL_RenderCopy(renderer, texture, nullptr, nullptr);
